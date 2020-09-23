@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "main": "index.js",
   "private": true,
-  "homepage": "https://jtrimble6.github.io/joshtrimbleportfolio/",
+  "repository": "https://jtrimble6.github.io/joshtrimbleportfolio/",
+  "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.6",
     "@fortawesome/free-brands-svg-icons": "^5.4.1",
