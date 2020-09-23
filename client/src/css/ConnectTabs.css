@@ -1,0 +1,547 @@
+/* WIDE SCREENS */
+@media only screen and (min-width: 1025px) {
+.connectButton {
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    display: inline-block;
+     position: absolute;
+     /* overflow: hidden; */
+     width: 178px;
+     height: 40px;
+     /* top: 50%; */
+     left: 50%;
+     text-transform: uppercase;
+     font-size: 14px;
+     transform: translate(-50%, -50%);
+ }
+ 
+ .connectButton a {
+    color: #008eff;
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 26px;
+    padding: 7px 13px 7px 13px;
+    
+ }
+
+ .connectButton > a:after{
+    font-family: FontAwesome;
+    font-size: 14px;
+    color: #008eff;
+    content: "\f064";
+    margin-left: 10px;
+ }
+ .connectButton > a:hover,
+ .connectButton > a:hover:after,
+ .connectButton .iconWrapper ul li a:hover i{
+     color: #e4e9ea;
+ }
+ .connectButton .iconWrapper ul li:last-child a:hover i{
+     color: red;
+ }
+ .connectButton .iconWrapper{
+     position: absolute;
+     left: -286px;
+     top: 0;
+     width: 286px;
+ }
+ 
+ .connectButton .iconWrapper > a{
+     display: inline-block;
+ }
+ .connectButton a.hidden{
+     display: none;
+ }
+ .connectButton.active .iconWrapper{
+     max-height: 40px;
+ }
+ .connectButton .iconWrapper ul{
+     padding-left: 0;
+     margin: 0;
+     height: 40px;
+ }
+ .connectButton .iconWrapper ul:after{
+     clear: both;   
+ }
+ .connectButton .iconWrapper ul li{
+     /* float: left; */
+     display: inline-block;
+ }
+ .connectButton .iconWrapper ul li:last-child{
+     float: right;
+ }
+ .connectButton .iconWrapper ul li a i{
+     color: #008eff;
+     font-size: 14px;
+ }
+ .connectButton .iconWrapper ul li:last-child a{
+     background-color: #008eff;
+ }
+ .connectButton .iconWrapper ul li:last-child a i{
+     color: #2d3847;
+     position: relative;
+     left: 1px;
+ }
+
+ .connectButton {
+    position: relative;
+    border-color: #008eff;
+    top: 20px;
+    padding: 0;
+    margin: 0;
+ }
+
+ .iconWrapper {
+     position: fixed;
+     top: 0;
+     left: 50px;
+     width: 190px;
+ }
+
+ a {
+    color: #008eff;
+ }
+
+ .connectText {
+     position: relative;
+     top: 0;
+     left: 290px;
+     /* color: white !important; */
+ }
+
+ .bm-menu {
+     position: absolute !important;
+     z-index: 1 !important;
+     margin-left: 30%;
+     overflow: visible !important;
+     margin-top: 5px;
+     line-height: 1px;
+ }
+
+ .menu-item {
+    color: #008eff;
+    background-color: black !important;
+ }
+
+ .bm-item-list :hover {
+    color: black;
+    background-color: #008eff !important;
+ }
+
+ .bm-overlay {
+     background: none !important;
+ }
+
+}
+
+/* MEDIUM SCREENS */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .connectButton{
+        text-transform: uppercase;
+        border: 2px solid #fff;
+        display: inline-block;
+        position: absolute;
+        /* overflow: hidden; */
+        width: 140px;
+        height: 30px;
+        /* top: 50%; */
+        left: 50%;
+        text-transform: uppercase;
+        font-size: 14px;
+        transform: translate(-50%, -50%);
+     }
+     .connectButton a{
+        color: #008eff;
+        font-size: 10px;
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 20px;
+        padding: 7px 13px 7px 13px;
+     }
+     .connectButton > a:after{
+        font-family: FontAwesome;
+        font-size: 14px;
+        color: #008eff;
+        content: "\f064";
+        margin-left: 10px;
+     }
+     .connectButton > a:hover,
+     .connectButton > a:hover:after,
+     .connectButton .iconWrapper ul li a:hover i{
+         color: #e4e9ea;
+     }
+     .connectButton .iconWrapper ul li:last-child a:hover i{
+         color: red;
+     }
+     .connectButton .iconWrapper{
+         position: absolute;
+         left: -295px;
+         top: 0;
+         width: 286px;
+     }
+     
+     .connectButton .iconWrapper > a{
+         display: inline-block;
+     }
+     .connectButton a.hidden{
+         display: none;
+     }
+     .connectButton.active .iconWrapper{
+         max-height: 40px;
+     }
+     .connectButton .iconWrapper ul{
+         padding-left: 0;
+         margin: 0;
+         height: 40px;
+     }
+     .connectButton .iconWrapper ul:after{
+         clear: both;   
+     }
+     .connectButton .iconWrapper ul li{
+         /* float: left; */
+         display: inline-block;
+     }
+     .connectButton .iconWrapper ul li:last-child{
+         float: right;
+     }
+     .connectButton .iconWrapper ul li a i{
+         color: #008eff;
+         font-size: 14px;
+     }
+     .connectButton .iconWrapper ul li:last-child a{
+         background-color: #008eff;
+     }
+     .connectButton .iconWrapper ul li:last-child a i{
+         color: #2d3847;
+         position: relative;
+         left: 1px;
+     }
+    
+     .connectButton {
+        position: relative;
+        border-color: #008eff;
+        top: 20px;
+        padding: 0;
+        margin: 0;
+     }
+    
+     .iconWrapper {
+         position: fixed;
+         top: 0;
+         left: 50px;
+         width: 190px;
+     }
+    
+     a {
+        color: #008eff;
+     }
+    
+     .connectText {
+         position: relative;
+         top: 0;
+         left: 290px;
+     }
+
+     .bm-menu {
+        position: absolute !important;
+        z-index: 1 !important;
+        margin-left: 30%;
+        overflow: visible !important;
+        margin-top: 5px;
+        line-height: 1px;
+    }
+   
+    .menu-item {
+       color: #008eff;
+       background-color: black !important;
+    }
+   
+    .bm-item-list :hover {
+       color: black;
+       background-color: #008eff !important;
+    }
+   
+    .bm-overlay {
+        background: none !important;
+    }
+}
+
+
+/* SMALL SCREENS */
+@media only screen and (min-width: 481px) and (max-width: 765px) {
+    .connectButton{
+        text-transform: uppercase;
+        border: 2px solid #fff;
+        display: inline-block;
+        position: absolute;
+        /* overflow: hidden; */
+        width: 120px;
+        height: 30px;
+        /* top: 50%; */
+        left: 50%;
+        text-transform: uppercase;
+        font-size: 14px;
+        transform: translate(-50%, -50%);
+     }
+     .connectButton a{
+        color: #008eff;
+        font-size: 9px;
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 18px;
+        padding: 7px 13px 7px 13px;
+     }
+     .connectButton > a:after{
+        font-family: FontAwesome;
+        font-size: 14px;
+        color: #008eff;
+        content: "\f064";
+        margin-left: 10px;
+     }
+     .connectButton > a:hover,
+     .connectButton > a:hover:after,
+     .connectButton .iconWrapper ul li a:hover i{
+         color: #e4e9ea;
+     }
+     .connectButton .iconWrapper ul li:last-child a:hover i{
+         color: red;
+     }
+     .connectButton .iconWrapper{
+         position: absolute;
+         left: -298px;
+         top: 0;
+         width: 286px;
+     }
+     
+     .connectButton .iconWrapper > a{
+         display: inline-block;
+     }
+     .connectButton a.hidden{
+         display: none;
+     }
+     .connectButton.active .iconWrapper{
+         max-height: 40px;
+     }
+     .connectButton .iconWrapper ul{
+         padding-left: 0;
+         margin: 0;
+         height: 40px;
+     }
+     .connectButton .iconWrapper ul:after{
+         clear: both;   
+     }
+     .connectButton .iconWrapper ul li{
+         /* float: left; */
+         display: inline-block;
+     }
+     .connectButton .iconWrapper ul li:last-child{
+         float: right;
+     }
+     .connectButton .iconWrapper ul li a i{
+         color: #008eff;
+         font-size: 14px;
+     }
+     .connectButton .iconWrapper ul li:last-child a{
+         background-color: #008eff;
+     }
+     .connectButton .iconWrapper ul li:last-child a i{
+         color: #2d3847;
+         position: relative;
+         left: 1px;
+     }
+    
+     .connectButton {
+        position: relative;
+        border-color: #008eff;
+        top: 20px;
+        padding: 0;
+        margin: 0;
+     }
+    
+     .iconWrapper {
+         position: fixed;
+         top: 0;
+         left: 50px;
+         width: 190px;
+     }
+    
+     a {
+        color: #008eff;
+     }
+    
+     .connectText {
+         position: relative;
+         top: 0;
+         left: 290px;
+     }
+
+     .bm-menu {
+        position: absolute !important;
+        z-index: 1 !important;
+        margin-left: 30%;
+        overflow: visible !important;
+        margin-top: 5px;
+        line-height: 1px;
+    }
+   
+    .menu-item {
+       color: #008eff;
+       background-color: black !important;
+       
+    }
+   
+    .bm-item-list :hover {
+       color: black;
+       background-color: #008eff !important;
+    }
+   
+    .bm-overlay {
+        background: none !important;
+    }
+}
+
+
+/* SMALLER SCREENS */
+@media only screen and (max-width: 480px)  {
+    .connectButton{
+        text-transform: uppercase;
+        border: 2px solid #fff;
+        display: inline-block;
+        position: absolute;
+        /* overflow: hidden; */
+        width: 125px;
+        height: 25px;
+        /* top: 50%; */
+        left: 50%;
+        text-transform: uppercase;
+        font-size: 14px;
+        transform: translate(-50%, -50%);
+     }
+     .connectButton a{
+        color: #008eff;
+        font-size: 8px;
+        display: block;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 12px;
+        padding: 7px 13px 7px 13px;
+     }
+     .connectButton > a:after{
+        font-family: FontAwesome;
+        font-size: 14px;
+        color: #008eff;
+        content: "\f064";
+        margin-left: 10px;
+     }
+     .connectButton > a:hover,
+     .connectButton > a:hover:after,
+     .connectButton .iconWrapper ul li a:hover i{
+         color: #e4e9ea;
+     }
+     .connectButton .iconWrapper ul li:last-child a:hover i{
+         color: red;
+     }
+     .connectButton .iconWrapper{
+         position: absolute;
+         left: -290px;
+         top: 0;
+         width: 10px;
+     }
+     
+     .connectButton .iconWrapper > a{
+         display: inline-block;
+     }
+     .connectButton a.hidden{
+         display: none;
+     }
+     .connectButton.active .iconWrapper{
+         max-height: 40px;
+     }
+     .connectButton .iconWrapper ul{
+         padding-left: 0;
+         margin: 0;
+         height: 40px;
+     }
+     .connectButton .iconWrapper ul:after{
+         clear: both;   
+     }
+     .connectButton .iconWrapper ul li{
+         /* float: left; */
+         display: inline-block;
+     }
+     .connectButton .iconWrapper ul li:last-child{
+         float: right;
+     }
+     .connectButton .iconWrapper ul li a i{
+         color: #008eff;
+         font-size: 14px;
+     }
+     .connectButton .iconWrapper ul li:last-child a{
+         background-color: #008eff;
+     }
+     .connectButton .iconWrapper ul li:last-child a i{
+         color: #2d3847;
+         position: relative;
+         left: 1px;
+     }
+    
+     .connectButton {
+        position: relative;
+        border-color: #008eff;
+        top: 20px;
+        padding: 0;
+        margin: 0;
+     }
+    
+     .iconWrapper {
+         position: fixed;
+         top: 0;
+         left: 50px;
+         width: 190px;
+     }
+    
+     a {
+        color: #008eff;
+     }
+    
+     .connectText {
+         position: relative;
+         top: 0;
+         left: 290px;
+     }
+
+     .bm-menu {
+        position: absolute !important;
+        z-index: 1 !important;
+        margin-left: 30%;
+        overflow: visible !important;
+        margin-top: 5px;
+        line-height: 1px;
+    }
+   
+    .menu-item {
+       color: #008eff;
+       background-color: black !important;
+    }
+   
+    .bm-item-list :hover {
+       color: black;
+       background-color: #008eff !important;
+    }
+   
+    .bm-overlay {
+        background: none !important;
+    }
+}
+
+
+
+

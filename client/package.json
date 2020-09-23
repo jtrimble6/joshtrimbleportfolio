@@ -1,0 +1,67 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.6",
+    "@fortawesome/free-brands-svg-icons": "^5.4.1",
+    "@fortawesome/free-solid-svg-icons": "^5.4.1",
+    "@fortawesome/react-fontawesome": "^0.1.3",
+    "ajv": "^6.5.4",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "font-awesome-animation": "^0.2.1",
+    "gh-pages": "^2.0.1",
+    "history": "^4.7.2",
+    "material-ui": "^0.20.2",
+    "node-pre-gyp": "^0.11.0",
+    "particle.js": "^1.0.7",
+    "particles.js": "^2.0.0",
+    "prop-types": "^15.6.2",
+    "react-burger-menu": "^2.5.4",
+    "react-grid-system": "^4.3.1",
+    "react-particles-js": "^2.3.0",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-router-transition": "^1.2.1",
+    "react-social-icons": "^3.0.0",
+    "react-tap-event-plugin": "^3.0.3",
+    "redux": "^4.0.1",
+    "redux-burger-menu": "^0.2.8",
+    "redux-form": "^7.4.2",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

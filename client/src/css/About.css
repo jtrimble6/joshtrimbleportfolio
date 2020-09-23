@@ -1,0 +1,42 @@
+.img {
+    float: left;
+    margin-left: 2vw;
+    margin-top: 3vw;
+    margin-right: 2vw;
+    margin-bottom: 1.5vw;
+    width: 15vw !important;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.aboutContainer {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    overflow-y: auto;
+    font-size: 1rem;
+}
+
+.aboutField {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    opacity: 1;
+    background-color:black;
+    border-radius: 1rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h2 {
+    font-size: 65px;
+}
+.aboutField p {
+    font-size: 2rem;
+    background-color:black;
+    color: #008eff;
+    font-weight: 600;
+    padding: 10px;
+    text-indent: 3%;
+    
+}

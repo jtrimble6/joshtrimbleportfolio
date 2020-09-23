@@ -1,0 +1,94 @@
+.tabs-container {
+    background-color: black;
+    width: 100%;
+    height: 10vw;
+    border-bottom: none !important;
+}
+
+.Navbar_Link-brand {
+    font-family: 'Biryani', sans-serif;
+    font-size: 40px;
+    color: #008eff;
+    white-space: nowrap;
+}
+
+.Navbar_Name {
+    font-size: 75%;
+    position: absolute;
+    left: 0;
+    margin-left: 5px;
+    top: 15px;
+    left: 2vw;
+}
+
+.Navbar_Title {
+    font-size: 75%;
+    position: absolute;
+    right: 2vw;
+    top: 15px;
+}
+
+.navbarSpinner {
+    width: 100%;
+    align-items: center;
+}
+
+.fa-dice-d20 {
+    /* margin-left: 50%; */
+    margin: 0 auto;
+    font-size: 100%;
+    position: fixed;
+    top: 50px;
+}
+
+
+
+.Navbar__Link-toggle {
+    display: none;
+  }
+
+.flex-container {
+    position: relative;
+    color: #008eff;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 5px;
+    align-items: center;
+    border: none;
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+.Navbar_Link {
+    flex: 1;
+}
+
+.nav-item {
+    line-height: 1;
+    text-align: center;
+}
+
+.nav .nav-link {
+    border: none;
+}
+
+.nav-link.active {
+    border-top: 4px solid white;
+    min-width: 100%;
+}
+
+.navTabs {
+    position: relative;
+    height: 10vw;
+    z-index: 1;
+    /* overflow: visible !important; */
+}
+
+.page-container {
+    position: fixed;
+    min-height: 100%;
+}
+
+

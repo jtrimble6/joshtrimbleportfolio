@@ -1,0 +1,273 @@
+/* WIDE SCREENS */
+@media only screen and (min-width: 1025px) {
+  .personal {
+    color:white;
+    text-decoration:none;
+    position:absolute;
+    bottom:15px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .enterButton {
+    margin-left: 43%;
+    margin-right: auto;
+    text-align: center;
+    background: none;
+    color:#fff;
+    border: 3px solid #008eff;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+
+  .enterButton:hover {
+    background:#fff;
+    color:#008eff;
+  }
+
+  .enterButton:before,enterButton:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #008eff;
+    transition:400ms ease all;
+  }
+  enterButton:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  enterButton:hover:before,enterButton:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  .quote {
+    font-family: 'Nothing You Could Do', cursive;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 1%;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+}
+
+
+/* MEDIUM SCREENS */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+    .personal {
+      color:white;
+      text-decoration:none;
+      position:absolute;
+      bottom:15px;
+      right:2%;
+    }
+  
+    .enterButton {
+      margin-left: 40%;
+      margin-right: auto;
+      text-align: center;
+      background: none;
+      color:#fff;
+      border: 3px solid #008eff;
+      position:relative;
+      height:60px;
+      font-size:1.6em;
+      padding:0 2em;
+      cursor:pointer;
+      transition:800ms ease all;
+      outline:none;
+    }
+  
+    .enterButton:hover {
+      background:#fff;
+      color:#008eff;
+    }
+  
+    .enterButton:before,enterButton:after{
+      content:'';
+      position:absolute;
+      top:0;
+      right:0;
+      height:2px;
+      width:0;
+      background: #008eff;
+      transition:400ms ease all;
+    }
+    enterButton:after{
+      right:inherit;
+      top:inherit;
+      left:0;
+      bottom:0;
+    }
+    enterButton:hover:before,enterButton:hover:after{
+      width:100%;
+      transition:800ms ease all;
+    }
+  
+    .quote {
+      font-family: 'Nothing You Could Do', cursive;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+      margin-top: 15%;
+      margin-bottom: 1%;
+      color: white;
+      font-size: 40px;
+      font-weight: 800;
+    }
+
+  }
+
+  /* SMALL SCREENS */
+  @media only screen and (min-width: 481px) and (max-width: 765px) {
+  
+    .personal {
+      color:white;
+      text-decoration:none;
+      position:absolute;
+      bottom:15px;
+      right:2%;
+    }
+  
+    .enterButton {
+      margin-left: 35%;
+      margin-right: auto;
+      text-align: center;
+      background: none;
+      color:#fff;
+      border: 3px solid #008eff;
+      position:relative;
+      height:60px;
+      font-size:1.6em;
+      padding:0 2em;
+      cursor:pointer;
+      transition:800ms ease all;
+      outline:none;
+    }
+  
+    .enterButton:hover {
+      background:#fff;
+      color:#008eff;
+    }
+  
+    .enterButton:before,enterButton:after{
+      content:'';
+      position:absolute;
+      top:0;
+      right:0;
+      height:2px;
+      width:0;
+      background: #008eff;
+      transition:400ms ease all;
+    }
+    enterButton:after{
+      right:inherit;
+      top:inherit;
+      left:0;
+      bottom:0;
+    }
+    enterButton:hover:before,enterButton:hover:after{
+      width:100%;
+      transition:800ms ease all;
+    }
+  
+    .quote {
+      font-family: 'Nothing You Could Do', cursive;
+      z-index: 1;
+      margin-left: 5%;
+      margin-right: auto;
+      text-align: center;
+      margin-top: 15%;
+      margin-bottom: 1%;
+      color: white;
+      font-size: 30px;
+      font-weight: 800;
+    }
+    
+  
+  }
+
+
+  /* SMALLER SCREENS */
+  @media only screen and (max-width: 480px) {
+  
+    .personal {
+      color:white;
+      text-decoration:none;
+      position:absolute;
+      bottom:15px;
+      right:2%;
+    }
+  
+    .enterButton {
+      margin-left: 33%;
+      margin-right: auto;
+      text-align: center;
+      background: none;
+      color:#fff;
+      border: 3px solid #008eff;
+      position:relative;
+      height: 50px;
+      font-size:1.1em;
+      padding:0 2em;
+      cursor:pointer;
+      transition:800ms ease all;
+      outline:none;
+    }
+  
+    .enterButton:hover {
+      background:#fff;
+      color:#008eff;
+    }
+  
+    .enterButton:before,enterButton:after{
+      content:'';
+      position:absolute;
+      top:0;
+      right:0;
+      height:2px;
+      width:0;
+      background: #008eff;
+      transition:400ms ease all;
+    }
+    enterButton:after{
+      right:inherit;
+      top:inherit;
+      left:0;
+      bottom:0;
+    }
+    enterButton:hover:before,enterButton:hover:after{
+      width:100%;
+      transition:800ms ease all;
+    }
+  
+    .quote {
+      font-family: 'Nothing You Could Do', cursive;
+      z-index: 1;
+      margin-left: 5%;
+      margin-right: auto;
+      text-align: center;
+      margin-top: 45%;
+      margin-bottom: 2%;
+      color: white;
+      font-size: 20px;
+      font-weight: 800;
+    }
+    
+  
+  }
