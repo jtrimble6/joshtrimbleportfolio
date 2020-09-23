@@ -1,7 +1,6 @@
 {
   "name": "joshtrimbleportfolio",
   "version": "0.1.0",
-  "main": "index.js",
   "private": true,
   "homepage": "http://www.trimbledevelops.com/",
   "license": "MIT",
