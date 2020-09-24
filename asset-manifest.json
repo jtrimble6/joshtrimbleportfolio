@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/joshtrimbleportfolio/static/css/main.b48eeaa6.chunk.css",
-    "main.js": "/joshtrimbleportfolio/static/js/main.a5db98ad.chunk.js",
-    "main.js.map": "/joshtrimbleportfolio/static/js/main.a5db98ad.chunk.js.map",
-    "runtime-main.js": "/joshtrimbleportfolio/static/js/runtime-main.adc20a0b.js",
-    "runtime-main.js.map": "/joshtrimbleportfolio/static/js/runtime-main.adc20a0b.js.map",
-    "static/js/2.c49b6877.chunk.js": "/joshtrimbleportfolio/static/js/2.c49b6877.chunk.js",
-    "static/js/2.c49b6877.chunk.js.map": "/joshtrimbleportfolio/static/js/2.c49b6877.chunk.js.map",
-    "index.html": "/joshtrimbleportfolio/index.html",
-    "precache-manifest.d2db0812f0ce8b0af74fb5d95d02da7f.js": "/joshtrimbleportfolio/precache-manifest.d2db0812f0ce8b0af74fb5d95d02da7f.js",
-    "service-worker.js": "/joshtrimbleportfolio/service-worker.js",
-    "static/css/main.b48eeaa6.chunk.css.map": "/joshtrimbleportfolio/static/css/main.b48eeaa6.chunk.css.map",
-    "static/js/2.c49b6877.chunk.js.LICENSE.txt": "/joshtrimbleportfolio/static/js/2.c49b6877.chunk.js.LICENSE.txt",
-    "static/media/Trim.jpg": "/joshtrimbleportfolio/static/media/Trim.500e9a92.jpg",
-    "static/media/Projects.css": "/joshtrimbleportfolio/static/media/supperclub.bb640cfd.jpg",
-    "static/media/index.css": "/joshtrimbleportfolio/static/media/background.da386a91.jpg"
+    "main.css": "/static/css/main.d69ce6c0.chunk.css",
+    "main.js": "/static/js/main.25ac72c7.chunk.js",
+    "main.js.map": "/static/js/main.25ac72c7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.c49b6877.chunk.js": "/static/js/2.c49b6877.chunk.js",
+    "static/js/2.c49b6877.chunk.js.map": "/static/js/2.c49b6877.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.30a7274fc36399423cc4ba67640e1e2a.js": "/precache-manifest.30a7274fc36399423cc4ba67640e1e2a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d69ce6c0.chunk.css.map": "/static/css/main.d69ce6c0.chunk.css.map",
+    "static/js/2.c49b6877.chunk.js.LICENSE.txt": "/static/js/2.c49b6877.chunk.js.LICENSE.txt",
+    "static/media/Trim.jpg": "/static/media/Trim.500e9a92.jpg",
+    "static/media/Projects.css": "/static/media/supperclub.bb640cfd.jpg",
+    "static/media/index.css": "/static/media/background.da386a91.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.adc20a0b.js",
+    "static/js/runtime-main.09b85ec0.js",
     "static/js/2.c49b6877.chunk.js",
-    "static/css/main.b48eeaa6.chunk.css",
-    "static/js/main.a5db98ad.chunk.js"
+    "static/css/main.d69ce6c0.chunk.css",
+    "static/js/main.25ac72c7.chunk.js"
   ]
 }
