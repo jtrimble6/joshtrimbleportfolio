@@ -2,7 +2,7 @@
   "name": "joshtrimbleportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.trimbledevelops.com/",
+  "homepage": "https://trimbledevelops.com/",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.6",
