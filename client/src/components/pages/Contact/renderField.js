@@ -10,6 +10,29 @@ const renderField = ({ input, label, meta: { touched, error }, ...custom }) => {
           {...custom}
           fullWidth={true}
           autoComplete="off"
+          InputLabelProps={{
+            classes: {
+              root: {
+                border: '1px solid #008eff !important'
+              },
+              focused: {
+                border: '1px solid #008eff !important'
+              },
+            },
+          }}
+          InputProps={{
+            classes: {
+              root: {
+                border: '1px solid #008eff !important'
+              },
+              focused: {
+                border: '1px solid #008eff !important'
+              },
+              notchedOutline: {
+                border: '1px solid #008eff !important'
+              },
+            }
+          }}
         />
 )};
 

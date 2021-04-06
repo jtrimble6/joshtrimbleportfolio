@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import NavTabs from "./NavTabs";
-import ConnectTabs from "./ConnectTabs";
+import NavTabs from "./nav/NavTabs";
+import ConnectTabs from "./nav/ConnectTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import ContactMe from "./ContactMe";
+import ContactMe from "./nav/ContactMe";
 import "../css/Page.css"
 import "../css/Background.css"
 import "../css/NavBar.css"

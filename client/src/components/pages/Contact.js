@@ -13,7 +13,10 @@ class ContactContainer extends Component {
 
   render() {
     return(
-      <SendContactInfo contact={this.props.contact} action={this.props.actions}/>
+      <SendContactInfo 
+        contact={this.props.contact} 
+        action={this.props.actions}
+      />
     )
   }
 }

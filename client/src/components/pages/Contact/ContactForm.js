@@ -28,7 +28,8 @@ const styles = {
     textAlign: "center"
   },
   rowStyle: {
-    marginBottom: "-10px"
+    marginBottom: "-10px",
+    borderTop: '#008eff'
   },
   signature: {
     textAlign: "center"
@@ -63,7 +64,7 @@ class SendContactInfo extends Component {
   render() {
     const { pristine, reset, submitting } = this.props;
     return (
-      <div id='contactFormContainer'>
+      <div id='contactFormContainer' className='row contactFormRow'>
         <div className='uk-position-center formMargin'>
           <Paper zDepth={2} style={styles.paperStyle}>
            <form onSubmit={this.handleOnSubmit} style={styles.formStyle}>
@@ -104,7 +105,7 @@ class SendContactInfo extends Component {
             { < EmailMsg /> }
           </div>
 
-          <div className="uk-text-center uk-position-bottom" style={styles.signature}>
+          <div className="contactFormReminder uk-text-center" style={styles.signature}>
             <h5> When It Comes To Web Development, Think Of Me — Joshua Trimble </h5>
           </div>
         </div>

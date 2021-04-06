@@ -1,12 +1,23 @@
 import React from "react"
 import Particles from 'react-particles-js'
 import EnterButton from '../EnterButton'
+import NavTabs from '../nav/NavTabs'
+import About from './About'
+import pp from '../../css/Trim.jpg'
+import '../../css/Home.css'
 import "../../css/Particles.css"
+import "../../css/About.css"
 
 const Home = props => (
   
-  <div className="homeContainer">
-    <Particles params={{
+  <div className="landingContainer">
+    <div className='landingBackground'></div>
+    <NavTabs />
+    <About />
+    {/* <div className='imgContainer'>
+        <img src={pp} alt="Josh Trimble" className="img" />
+    </div> */}
+    {/* <Particles params={{
       particles: {
         size: {
           value: 3,
@@ -26,7 +37,7 @@ const Home = props => (
     }}/>
     <EnterButton 
       onClick={props.onClick}
-    />
+    /> */}
   </div>
   
 )

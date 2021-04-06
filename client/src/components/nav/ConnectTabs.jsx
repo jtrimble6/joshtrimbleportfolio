@@ -2,7 +2,7 @@ import React from "react"
 import { SocialIcon } from 'react-social-icons';
 // import { scaleRotate as Menu } from 'react-burger-menu'
 import { slide as Menu } from 'react-burger-menu'
-import "../css/ConnectTabs.css"
+import "../../css/ConnectTabs.css"
 
 class ConnectTabs extends React.Component {
 
@@ -32,8 +32,8 @@ class ConnectTabs extends React.Component {
   render() {
     return (
       <div className="connectButton">
-        <div className="iconWrapper">
-          <a href="#" className="connectText" onClick={ this.isMenuOpen }>Connect With Me</a>
+        <div className="iconWrapper2">
+          <a href="#" className="connectText2" onClick={ this.isMenuOpen }>Connect With Me</a>
             <main id="page-wrap">
             <Menu 
               right

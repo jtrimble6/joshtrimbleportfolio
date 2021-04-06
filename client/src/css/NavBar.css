@@ -1,94 +1,336 @@
 .tabs-container {
-    background-color: black;
-    width: 100%;
-    height: 10vw;
-    border-bottom: none !important;
-}
-
-.Navbar_Link-brand {
-    font-family: 'Biryani', sans-serif;
-    font-size: 40px;
-    color: #008eff;
-    white-space: nowrap;
-}
-
-.Navbar_Name {
-    font-size: 75%;
-    position: absolute;
-    left: 0;
-    margin-left: 5px;
-    top: 15px;
-    left: 2vw;
-}
-
-.Navbar_Title {
-    font-size: 75%;
-    position: absolute;
-    right: 2vw;
-    top: 15px;
-}
-
-.navbarSpinner {
-    width: 100%;
-    align-items: center;
-}
-
-.fa-dice-d20 {
-    /* margin-left: 50%; */
-    margin: 0 auto;
-    font-size: 100%;
-    position: fixed;
-    top: 50px;
-}
-
-
-
-.Navbar__Link-toggle {
-    display: none;
-  }
-
-.flex-container {
-    position: relative;
-    color: #008eff;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-column-gap: 5px;
-    align-items: center;
-    border: none;
-    max-width: 50%;
-    margin: 0 auto;
-    font-size: 20px;
-}
-
-
-.Navbar_Link {
-    flex: 1;
-}
-
-.nav-item {
-    line-height: 1;
-    text-align: center;
-}
-
-.nav .nav-link {
-    border: none;
-}
-
-.nav-link.active {
-    border-top: 4px solid white;
-    min-width: 100%;
+  background-color: black;
+  width: 100%;
+  height: 10vw;
+  border-bottom: none !important;
 }
 
 .navTabs {
-    position: relative;
-    height: 10vw;
-    z-index: 1;
-    /* overflow: visible !important; */
+  height: 10vh;
+  width: 100vw;
+  position: static;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.Navbar_Link-brand {
+  font-family: "Fantasy", "marker felt";
+  color: #008eff;
+  white-space: nowrap;
+}
+
+.Navbar_Name {
+  position: static;
+}
+
+.navbarSpinner {
+  width: 100%;
+  align-items: center;
+}
+
+.fa-dice-d20 {
+  /* margin-left: 50%; */
+  margin: 0 auto;
+  font-size: 100%;
+  position: fixed;
+  top: 50px;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+.flex-container {
+  position: relative;
+  /* color: #008eff; */
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-column-gap: 5px;
+  align-items: center;
+  border: none;
+  max-width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.Navbar_Link {
+  flex: 1;
+  cursor: pointer;
+}
+
+.nav-item {
+  line-height: 1;
+  text-align: center;
+  /* Add the blur effect */
+  backdrop-filter: blur(10px);
+}
+
+.nav .nav-link {
+  border: none;
+}
+
+.nav-item a:hover {
+  border-bottom: 4px solid white !important;
+  min-width: 100% !important;
+}
+
+.nav-item a.active {
+  border-bottom: 4px solid white;
+  min-width: 100%;
+}
+
+.navTabsLogoLink {
+  position: relative;
+  z-index: 10;
+  top: 0vw;
+  left: 45vw;
+}
+.navbar-brand {
+  width: 10vw;
+  height: 10vw;
+}
+.Navbar_Title {
+  font-size: 10vw;
+  position: static;
+  right: 2vw;
+  top: 0vw;
 }
 
 .page-container {
-    position: fixed;
-    min-height: 100%;
+  position: fixed;
+  min-height: 100%;
 }
 
+.bm-overlay {
+  right: 0;
+}
 
+.bm-burger-button button:focus {
+  outline: none !important;
+}
+
+.navbarTogglerButtonCustom {
+  top: 1vw !important;
+  color: white !important;
+  font-size: 5vw;
+}
+
+/* NAV BAR LIST */
+
+.masterRow {
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
+
+.masterRow .pages .Navbar_Items {
+  font-family: "Fantasy", "marker felt";
+  width: 100vw;
+  /* justify-content: center; */
+  font-size: 1rem;
+}
+
+/* ----------- LAPTOPS ----------- */
+
+/* ----------- Non-Retina Screens ----------- */
+
+@media screen and (min-device-height: 1000px) and (max-device-width: 699px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media screen and (min-device-width: 700px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- iPads ----------- */
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPhones ----------- */
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .flex-container {
+    max-width: 100%;
+  }
+  .navTabsLogoLink {
+    left: 30vw;
+  }
+  .navbar-brand {
+    width: 40vw;
+    height: 40vw;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .tabs-container {
+    height: 25vw;
+  }
+  .navTabsLogoLink {
+    position: relative;
+    top: 0vw;
+    left: 40vw;
+  }
+  .navbar-brand {
+    width: 20vw;
+    height: 20vw;
+  }
+  .Navbar_Title {
+    font-size: 10vw;
+    /* position: absolute; */
+    right: 2vw;
+    top: 8vw;
+  }
+  .burgerMenu {
+    height: 125% !important;
+    width: 60% !important;
+    position: relative;
+    z-index: 100;
+  }
+  .burgerMenu .bm-item {
+    color: white;
+    line-height: 8vw;
+    font-size: 4vw !important;
+  }
+  .burgerMenu .bm-menu {
+    width: 100%;
+  }
+  .burgerMenu .bm-item-list {
+    background-color: #008eff;
+    border-top-left-radius: 1rem;
+  }
+
+  .bm-burger-button {
+    color: white !important;
+  }
+
+  #mainNav {
+    position: static;
+    /* right: 0 !important; */
+    /* left: 90vw !important; */
+    width: 100vw;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (min-device-height: 365px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
