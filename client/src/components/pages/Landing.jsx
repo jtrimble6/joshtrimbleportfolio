@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NavTabs from '../nav/NavTabs'
 import Home from './Home'
-import About from './About'
+import Bio from './Bio'
 import Projects from './Projects'
 import Contact from './Contact'
 import '../../css/Landing.css'
@@ -28,7 +28,7 @@ class LandingPage extends Component {
           <div id='landingPage'>
             {/* <NavTabs /> */}
             <Home />
-            {/* <About /> */}
+            <Bio />
             <Projects />
             <Contact />
           </div>

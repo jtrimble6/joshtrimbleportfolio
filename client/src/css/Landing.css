@@ -1,4 +1,11 @@
 #landingPage {
+  position: inherit;
   background-color: transparent;
   overflow-x: hidden !important;
+  /* height: 100vh; */
+}
+
+.landingContainer {
+  position: relative !important;
+  /* z-index: -100 !important; */
 }

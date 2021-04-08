@@ -3,91 +3,87 @@
   src: url("./fonts/Lemonada-SemiBold.ttf");
 }
 
-.aboutContainer {
+.bioContainer {
+  /* position: inherit; */
+  padding-top: 20vh;
+}
+
+.img {
   position: relative;
-  margin: 0 auto;
-  padding-bottom: 10%;
-  overflow-y: auto;
-  font-size: 1rem;
+  margin-left: 2vw;
+  margin-top: 3vw;
+  margin-right: 2vw;
+  margin-bottom: 1.5vw;
+  width: 15vw !important;
+  border-radius: 50%;
+  height: auto;
+  overflow: visible !important;
+  /* z-index: 1000 !important; */
+  top: -17vh;
+  float: right;
+  shape-outside: ellipse() !important;
+  /* top: -15vh; */
 }
 
-.aboutField {
-  width: 90vw;
-  margin: 0 auto;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  opacity: 1;
-  background-color: transparent;
-  border-radius: 1rem;
+.imgContainer {
+  position: relative;
+  padding: 1vw;
+  height: auto;
+  border-radius: 50%;
+  z-index: 2;
 }
 
-.aboutContent {
-  text-align: left;
-  font-family: "Roboto", sans-serif;
-}
-
-.aboutTitle {
+.bioContent {
+  position: relative;
+  /* top: 10vh; */
+  padding: 3vw;
+  margin-bottom: 5vh;
+  float: none;
   color: #333333;
-  text-align: center;
-  font-size: 6rem;
+  border: 0.5rem solid #eeeeee;
+  border-radius: 1rem;
+  width: 85vw;
+  margin-left: 5vw;
+  z-index: 1;
+  /* top: -15vh; */
+}
+
+.bioContainer p {
+  font-family: "Roboto", sans !important;
+}
+
+.connectRow {
+  position: relative;
+  width: 30vw;
+  left: 70vw;
+}
+
+.connectIcon {
+  font-size: 4rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  /* margin: 1rem; */
+}
+
+.connectIcon:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.strengthsCol {
+  margin-bottom: 5vh;
+}
+
+.strengthsTitle,
+.studyingTitle {
   font-family: lemonada-semibold;
 }
 
-h2 {
-  font-size: 65px;
-}
-.aboutField p {
-  font-size: 1.5rem;
-  background-color: transparent;
-  color: white;
-  font-weight: 600;
-  padding: 10px;
-  font-family: "Roboto", sans;
-  /* text-indent: 3%; */
-}
-
-.recentWorkButton {
-  margin: 0 auto;
-  background: transparent;
-  border: 2px solid white;
-}
-
-.recentWorkButton:hover {
-  border: 2px solid white;
-  background: linear-gradient(
-    to bottom,
-    rgba(206, 217, 238, 0.9),
-    #ff7300 100%,
-    rgba(206, 217, 238, 0.9)
-  );
-}
-
-.bouncy {
-  animation: bouncy 5s infinite linear;
-  position: relative;
-}
-@keyframes bouncy {
-  0% {
-    top: 0em;
-  }
-  40% {
-    top: 0em;
-  }
-  43% {
-    top: -0.9em;
-  }
-  46% {
-    top: 0em;
-  }
-  48% {
-    top: -0.4em;
-  }
-  50% {
-    top: 0em;
-  }
-  100% {
-    top: 0em;
-  }
+.strengthIcon,
+.studyingIcon {
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
 
 /* ----------- LAPTOPS ----------- */
@@ -95,13 +91,13 @@ h2 {
 /* ----------- Non-Retina Screens ----------- */
 
 @media screen and (min-device-height: 1000px) and (max-device-width: 699px) and (-webkit-min-device-pixel-ratio: 1) {
-  .aboutField p {
-    font-size: 1.5rem;
+  .bioContent {
+    font-size: 3rem;
   }
 }
 
-@media screen and (min-device-width: 700px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
-  .aboutField p {
+@media screen and (min-device-width: 700px) and (max-device-width: 2200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .bioContent {
     font-size: 1.5rem;
   }
 }
@@ -192,21 +188,8 @@ h2 {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  .aboutContainer {
-    line-height: 1.7rem;
-    height: 100vh !important;
-  }
-  .aboutTitle {
-    margin-top: 4vh;
-    font-size: 3.5rem;
-  }
-  .aboutField {
-    width: 100vw !important;
-    margin-left: 1vw;
-    margin-right: 1vw;
-  }
-  .aboutField p {
-    font-size: 1rem;
+  .img {
+    width: 50vw !important;
   }
 }
 

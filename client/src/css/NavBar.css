@@ -13,31 +13,8 @@
   background-color: transparent;
 }
 
-.Navbar_Link-brand {
-  font-family: "Fantasy", "marker felt";
-  color: #008eff;
-  white-space: nowrap;
-}
-
 .Navbar_Name {
   position: static;
-}
-
-.navbarSpinner {
-  width: 100%;
-  align-items: center;
-}
-
-.fa-dice-d20 {
-  /* margin-left: 50%; */
-  margin: 0 auto;
-  font-size: 100%;
-  position: fixed;
-  top: 50px;
-}
-
-.Navbar__Link-toggle {
-  display: none;
 }
 
 .flex-container {
@@ -45,7 +22,7 @@
   /* color: #008eff; */
   color: white;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(3, auto);
   grid-column-gap: 5px;
   align-items: center;
   border: none;
@@ -137,7 +114,15 @@
 @media screen and (min-device-height: 1000px) and (max-device-width: 699px) and (-webkit-min-device-pixel-ratio: 1) {
 }
 
-@media screen and (min-device-width: 700px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 700px) and (max-device-width: 2200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .navTabsLogoLink {
+    top: 3vh;
+    left: 40vw;
+  }
+  .navbar-brand {
+    width: 18vw;
+    height: 18vw;
+  }
 }
 
 /* ----------- iPads ----------- */

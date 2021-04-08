@@ -1,38 +1,55 @@
-import React from "react"
+import React, { Component } from 'react';
 import pp from '../../css/Trim.jpg'
 import "../../css/About.css"
+import { Button } from "reactstrap"
+import { Link, Events, scrollSpy } from 'react-scroll'
 
-const About = () => (
-  
-    <div className="row aboutContainer" id="about">
-        {/* <div className='imgContainer'>
-            <img src={pp} alt="Josh Trimble" className="img" />
-        </div> */}
-        <div className="col-lg-12 col-sm-12 aboutField">
-            {/* <div className="row" id="content-header">
-                <div className="col-md-12">
-                    <h2>About</h2>
+class About extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      prevScrollPos: window.pageYOffset,
+    }
+
+    this.handleScroll = this.handleScroll.bind(this)
+  }
+
+componentDidMount() {
+    Events.scrollEvent.register('begin', function(to, element) {
+      console.log('begin', arguments);
+    });
+
+    Events.scrollEvent.register('end', function(to, element) {
+      console.log('end', arguments);
+    });
+
+    scrollSpy.update();
+    // window.addEventListener("scroll", this.handleScroll);
+  }
+
+handleScroll = (location) => {
+    console.log('LOCATION: ', location)
+    let section = document.getElementById(location)
+    console.log('got element: ', section)
+    section.scrollIntoView({behavior: "smooth"}); // Boolean parameter
+    }
+
+  render() {        
+    return (
+        <div className="aboutContainer" id="about">
+            <div className="col-lg-12 col-sm-12 aboutField">
+                <h1 className='aboutTitle'>Welcome!</h1>
+                <div className='row'>
+                    <p className='aboutContent'>I'm Josh - A Freelance Web Developer based in Austin, Tx with expertise in Javascript and React. My focus is developing clean websites that are user-friendly and mobile responsive.</p>
                 </div>
-            </div> */}
-            <h1 className='aboutTitle'>Welcome!</h1>
-            <p className='aboutContent'>I'm Josh - A Freelance Web Developer based in Austin, Tx with expertise in Javascript and the ability to create business professional websites from scratch. Driven by an inate passion to build and create. My passion for development can help build the personal or professional website to drive your dreams and passions.</p>
-            {/* <p>
-            A deep desire to innovate and develop are the two major factors that encouraged me to pursue the knowledge and skill to develop creative and fully functioning websites and applications to meet my clients’ needs. What I believe separates me from other developers is my intangible ability to take a vision or idea and work to transcribe this idea into a viable product. My background as a Division I athlete instilled an unmatched work ethic combined with a tremendous drive to deliver results.
-            </p>
-            <p>
-            With 3+ years of coding experience developing numerous personal projects as well as professional business websites that incorporate various capabilities such as secure user login, video uploading, and secure payment methods – just to name a few. Many of these projects and websites were developed 100% by myself with the help of the abundant amount of resources available through node packages and API calls. The reason for this was not to avoid teamwork, as I am well aware of what teamwork can bring to the table. Instead, in my early development years I believed it to be vital that I build my knowledge and skills to a level of competency that allows me to build and deliver on all aspects of the website or application.
-            </p> */}
-
-            {/* <p>
-              Playing football at Virginia Tech has greatly prepared me for this creative adventure as competing in a highly competitive sport that demands attention to detail and copious amounts of critical thinking crosses over nicely into tech. Outside of sports I my interests include movies, books, and podcasts. 
-            </p> */}
-
-            {/* <p>
-              I passionately envision being part of a team that helps to create a revolutionary product and/or business. Although the idea has not been thought of yet, I can promise it is coming! If you would like to see examples of programs that I have created just take a scroll through the <strong>portfolio</strong> page!
-            </p> */}
-  
-        </div>
-    </div>
-)
-
-export default About
+                <div className='row'>
+                    <Button className='recentWorkButton bouncy' onClick={() => this.handleScroll("projects")}>
+                        My Recent Work
+                    </Button>
+                </div>
+            </div>
+        </div>    
+    )}
+}
+export default About;

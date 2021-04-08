@@ -96,13 +96,6 @@ classToggle = () => {
     return (
 
       <div className="navTabs Navbar">
-        
-        {/* <div className="Navbar__Link Navbar__Link-toggle" onClick={this.classToggle}>
-          <FontAwesomeIcon icon="fa-bars" />
-          <i className="fas fa-bars"></i>
-        </div> */}
-
-
         <nav 
           className={classnames("navbar navbar-expand-lg navbar")} 
           role='navigation' 
@@ -110,66 +103,11 @@ classToggle = () => {
         >
           <div className="row masterRow">
             <div className="pages">
-              <div className="row">
-                {/* <i className="navbarTogglerButtonCustom fas fa-bars navbar-toggler collapsed navbar-toggler-right" 
-                  data-toggle='collapse' 
-                  data-target="#navbarResponsive" 
-                  aria-controls="navbarResponsive" 
-                  aria-expanded="false" 
-                  aria-label="Toggle navigation" 
-                  onClick={this.toggleNavbar}
-                >
-                <Menu 
-                  right 
-                  disableAutoFocus               
-                  className='burgerMenu'
-                  noOverlay
-                  // customBurgerIcon={ bars }
-                  customCrossIcon={ <img src={require("../../css/images/cross.png")} alt='close' /> } 
-                >
-                  <NavLink 
-                    className='iconBar nav-link' 
-                    onClick={this.toggleNavbar}
-                    href="/"
-                  > 
-                    Home
-                  </NavLink>
-
-                  <NavLink
-                    activeClass="active"
-                    className='iconBar nav-link'
-                    onClick={this.toggleNavbar}
-                    to="scheduleInfo"
-                    spy={true}
-                    smooth={true}
-                    offset={-150}
-                    duration= {500}
-                  > 
-                    About 
-                  </NavLink>
-                  
-                  <NavLink 
-                    className='iconBar nav-link' 
-                    onClick={this.toggleNavbar}
-                    href="/contact"
-                  > 
-                    Projects
-                  </NavLink>
-
-                  <NavLink 
-                    className='iconBar nav-link' 
-                    onClick={this.toggleNavbar}
-                    href="/userLogin"
-                  > 
-                    Contact
-                  </NavLink>
-
-                </Menu>
-                </i> */}
+              {/* <div className="row"> */}
                 <div className="row flex-container Navbar_Items" id="navbarResponsive">
                   {/* <ul className="navbar-nav"> */}
 
-                  <div className="nav-item Navbar_Link" id="home-item">
+                  {/* <div className="nav-item Navbar_Link" id="home-item">
                     <a
                       onClick={() => this.handleScroll("home")}
                       className={
@@ -178,16 +116,16 @@ classToggle = () => {
                     >
                       Home
                     </a>
-                  </div>
+                  </div> */}
 
                   <div className="nav-item Navbar_Link" id="about-item">
                     <a
-                      onClick={() => this.handleScroll("about")}
+                      onClick={() => this.handleScroll("bio")}
                       className={
-                        this.currentPage === "About" ? "nav-link active" : "nav-link"
+                        this.currentPage === "Bio" ? "nav-link active" : "nav-link"
                       }
                     >
-                      About
+                      Bio
                     </a>
                   </div>
                   <div className="nav-item Navbar_Link" id="projects-item">
@@ -212,7 +150,7 @@ classToggle = () => {
                   </div>  
                   {/* </ul> */}
                 </div>
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </nav>
