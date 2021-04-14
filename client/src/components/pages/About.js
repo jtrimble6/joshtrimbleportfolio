@@ -45,7 +45,7 @@ handleScroll = (location) => {
                 </div>
                 <div className='row'>
                     <Button className='recentWorkButton bouncy' onClick={() => this.handleScroll("projects")}>
-                        My Recent Work
+                        See My Work
                     </Button>
                 </div>
             </div>

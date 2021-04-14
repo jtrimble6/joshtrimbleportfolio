@@ -52,10 +52,10 @@
   min-width: 100% !important;
 }
 
-.nav-item a.active {
+/* .nav-item a.active {
   border-bottom: 4px solid white;
   min-width: 100%;
-}
+} */
 
 .navTabsLogoLink {
   position: relative;

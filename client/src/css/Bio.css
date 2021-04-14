@@ -3,6 +3,11 @@
   src: url("./fonts/Lemonada-SemiBold.ttf");
 }
 
+@font-face {
+  font-family: aboutfont;
+  src: url("./fonts/aboutfont.ttf");
+}
+
 .bioContainer {
   /* position: inherit; */
   padding-top: 20vh;
@@ -14,7 +19,7 @@
   margin-top: 3vw;
   margin-right: 2vw;
   margin-bottom: 1.5vw;
-  width: 15vw !important;
+  width: 25vw;
   border-radius: 50%;
   height: auto;
   overflow: visible !important;
@@ -49,7 +54,7 @@
 }
 
 .bioContainer p {
-  font-family: "Roboto", sans !important;
+  font-family: "aboutfont", sans !important;
 }
 
 .connectRow {
@@ -70,8 +75,9 @@
   cursor: pointer;
 }
 
-.strengthsCol {
-  margin-bottom: 5vh;
+.strengthsCol,
+.studyingCol {
+  margin-bottom: 3vh;
 }
 
 .strengthsTitle,
@@ -189,7 +195,52 @@
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .img {
-    width: 50vw !important;
+    width: 40vw !important;
+  }
+
+  .bioContentRow {
+    margin-right: 0px !important;
+  }
+
+  .bioColumn {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 2vh;
+  }
+
+  .bioPersonalColumn {
+    min-width: 100%;
+  }
+
+  .strengthsRow {
+    /* margin: 0px !important; */
+    margin: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .strengthsCol {
+    margin-bottom: 1vh;
+  }
+
+  .strengthsTitle,
+  .studyingTitle {
+    font-size: 1rem;
+  }
+
+  .strengthIcon,
+  .studyingIcon {
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
+  }
+
+  .connectRow {
+    width: 60vw;
+    left: 20vw;
+  }
+
+  .connectIcon {
+    font-size: 3rem;
   }
 }
 

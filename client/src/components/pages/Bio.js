@@ -10,9 +10,9 @@ const Bio = () => (
             <img src={pp} alt="Josh Trimble" className="img" />
         </div>
         <div className='bioContent'>
-          <div className='row'>
-            <div className='col-lg-4'>
-                <div className='row'>
+          <div className='bioContentRow'>
+            <div className='col-lg-4 col-sm-8 bioColumn'>
+                <div className='row strengthsRow'>
                     <div className='col strengthsCol'>
                         <h3 className='strengthsTitle'>Strengths:</h3>
                         <i class="fab fa-js-square strengthIcon"></i>
@@ -22,8 +22,8 @@ const Bio = () => (
                         <i class="fab fa-node strengthIcon"></i>
                     </div>
                 </div>
-                <div className='row'>
-                    <div className='col'>
+                <div className='row studyingRow'>
+                    <div className='col studyingCol'>
                         <h3 className='studyingTitle'>Studying:</h3>
                         <i class="fab fa-php studyingIcon"></i>
                         <i class="fab fa-swift studyingIcon"></i>
@@ -31,7 +31,7 @@ const Bio = () => (
                     </div>
                 </div>
             </div>
-            <div className='col-lg-8'>
+            <div className='col-lg-8 col-sm-12 bioPersonalColumn'>
                 <p className=''>Being the youngest of four brothers, you can imagine, brute force doesn't get you very far. At a young age I was force to utilize wit and creativity to navigate successfully through childhood. From this, a burning desire to advance my knowledge of all things tech was bred. Tech can be used by anyone to even the playing field for everyone. </p>
             </div>
           </div>

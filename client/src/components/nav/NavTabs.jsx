@@ -122,7 +122,7 @@ classToggle = () => {
                     <a
                       onClick={() => this.handleScroll("bio")}
                       className={
-                        this.currentPage === "Bio" ? "nav-link active" : "nav-link"
+                        this.currentPage === "Bio" ? "nav-link" : "nav-link"
                       }
                     >
                       Bio
@@ -132,7 +132,7 @@ classToggle = () => {
                     <a
                       onClick={() => this.handleScroll("projects")}
                       className={
-                        this.currentPage === "Projects" ? "nav-link active" : "nav-link"
+                        this.currentPage === "Projects" ? "nav-link" : "nav-link"
                       }
                     >
                       Projects
@@ -142,7 +142,7 @@ classToggle = () => {
                     <a
                       onClick={() => this.handleScroll("contactFormContainer")}
                       className={
-                        this.currentPage === "Contact" ? "nav-link active" : "nav-link"
+                        this.currentPage === "Contact" ? "nav-link" : "nav-link"
                       }
                     >
                       Contact

@@ -1,33 +1,45 @@
 import React from "react"
+import ReactPlayer from 'react-player'
 import "../../css/Projects.css"
+import GFitVideo from "../../css/videos/GouveiaFitness.mp4";
+import GFitMobileVideo from "../../css/videos/GouveiaFitnessMobile.mp4";
+import ThursdayTherapyVideo from "../../css/videos/ThursdayTherapy.mp4";
+import SecretSupperClubVideo from "../../css/videos/SecretSupperClub.mp4";
+import MagnessConsultingVideo from "../../css/videos/MagnessConsulting.mp4";
 
 const Projects = () => (
     <div className="row projectsContainer" id="projects">
-        <div className="col-md-8 projectColumn">
+        <div className="col projectColumn">
             {/* Row 1 */}
             <div className="row projectsRow" id='projectsTopRow'>
                 <div className="col-md-6">
-                    <div className="icon4">
-                        <a className="caption" href="https://secretsupperclub.herokuapp.com/" target="_blank">SECRET SUPPER CLUB</a>
+                    <div className="projectsPlayerDiv player-wrapper icon4">
+                        <ReactPlayer className='projectsPlayer' url={GFitVideo} muted playing loop/>
+                        {/* <div className='mobileVideoDiv'>
+                          <ReactPlayer className='projectsPlayerMobile react-player' width='100%' height='100%' url={GFitMobileVideo} muted playing loop/>
+                        </div> */}
+                        <a className="caption" href="https://gfitwefit.com/" target="_blank">Gouveia Fitness</a>
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className="icon3">
-                        <a className="caption" href="https://ancient-sands-68942.herokuapp.com/" target="_blank">ODDS SHARK</a>
+                    <div className="projectsPlayerDiv icon3">
+                        <ReactPlayer className='projectsPlayer' url={ThursdayTherapyVideo} muted playing loop/>
+                        <a className="caption" href="https://www.thursday-therapy.com/" target="_blank">Thursday Therapy</a>
                     </div>
                 </div>
-                
             </div>
             {/* Row 2 */}
             <div className="row projectsRow" id='projectsBottomRow'>
                 <div className="col-md-6">
-                    <div className="icon2">
-                        <a className="caption" href="https://spaceyb0t.github.io/Project-1-/index.html#getstarted" target="_blank">ALTITUDE</a>
+                    <div className="projectsPlayerDiv icon2">
+                        <ReactPlayer className='projectsPlayer' url={SecretSupperClubVideo} muted playing loop/>
+                        <a className="caption" href="https://secretsupperclub.herokuapp.com/" target="_blank">Secret Supper Club</a>
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className="icon1">
-                        <a className="caption" href="https://frozen-hollows-87443.herokuapp.com/" target="_blank">EAT DA BURGER</a>
+                    <div className="projectsPlayerDiv icon1">
+                        <ReactPlayer className='projectsPlayer' url={MagnessConsultingVideo} muted playing loop/>
+                        <a className="caption" href="https://https://magnessconsulting.herokuapp.com/" target="_blank">Magness Consulting</a>
                     </div>
                 </div>
             </div>

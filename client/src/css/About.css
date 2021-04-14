@@ -3,6 +3,11 @@
   src: url("./fonts/Lemonada-SemiBold.ttf");
 }
 
+@font-face {
+  font-family: aboutfont;
+  src: url("./fonts/aboutfont.ttf");
+}
+
 .aboutContainer {
   position: relative;
   margin: 0 auto;
@@ -23,7 +28,7 @@
 
 .aboutContent {
   text-align: left;
-  font-family: "Roboto", sans-serif;
+  font-family: "aboutfont", sans-serif;
 }
 
 .aboutTitle {
@@ -42,7 +47,7 @@ h2 {
   color: white;
   font-weight: 600;
   padding: 10px;
-  font-family: "Roboto", sans;
+  font-family: "aboutfont", sans-serif;
   /* text-indent: 3%; */
 }
 
