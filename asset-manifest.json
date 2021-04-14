@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e9c9863.chunk.css",
-    "main.js": "/static/js/main.fc0933c5.chunk.js",
-    "main.js.map": "/static/js/main.fc0933c5.chunk.js.map",
+    "main.css": "/static/css/main.89646396.chunk.css",
+    "main.js": "/static/js/main.ff8e381d.chunk.js",
+    "main.js.map": "/static/js/main.ff8e381d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
     "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
-    "static/js/2.7e8e7cfb.chunk.js": "/static/js/2.7e8e7cfb.chunk.js",
-    "static/js/2.7e8e7cfb.chunk.js.map": "/static/js/2.7e8e7cfb.chunk.js.map",
+    "static/js/2.2f6291e5.chunk.js": "/static/js/2.2f6291e5.chunk.js",
+    "static/js/2.2f6291e5.chunk.js.map": "/static/js/2.2f6291e5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6f23fa1440f01e192346aedb4dae598f.js": "/precache-manifest.6f23fa1440f01e192346aedb4dae598f.js",
+    "precache-manifest.cdf6e649a25b7d3186089e319964b050.js": "/precache-manifest.cdf6e649a25b7d3186089e319964b050.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2e9c9863.chunk.css.map": "/static/css/main.2e9c9863.chunk.css.map",
-    "static/js/2.7e8e7cfb.chunk.js.LICENSE.txt": "/static/js/2.7e8e7cfb.chunk.js.LICENSE.txt",
-    "static/media/Bio.css": "/static/media/Lemonada-SemiBold.db980608.ttf",
+    "static/css/main.89646396.chunk.css.map": "/static/css/main.89646396.chunk.css.map",
+    "static/js/2.2f6291e5.chunk.js.LICENSE.txt": "/static/js/2.2f6291e5.chunk.js.LICENSE.txt",
+    "static/media/Projects.css": "/static/media/gfitfont.fe87f4de.ttf",
+    "static/media/GouveiaFitness.mp4": "/static/media/GouveiaFitness.e6fd4ff0.mp4",
+    "static/media/GouveiaFitnessMobile.mp4": "/static/media/GouveiaFitnessMobile.2f3355c9.mp4",
+    "static/media/Bio.css": "/static/media/aboutfont.f63c2b05.ttf",
+    "static/media/MagnessConsulting.mp4": "/static/media/MagnessConsulting.35f1b511.mp4",
+    "static/media/SecretSupperClub.mp4": "/static/media/SecretSupperClub.ae56fe11.mp4",
+    "static/media/ThursdayTherapy.mp4": "/static/media/ThursdayTherapy.39f6cfb4.mp4",
     "static/media/Trim.jpg": "/static/media/Trim.500e9a92.jpg",
-    "static/media/Projects.css": "/static/media/supperclub.bb640cfd.jpg",
     "static/media/index.css": "/static/media/backgroundSky.68f16dfe.jpg",
     "static/media/trimblelogofinal.svg": "/static/media/trimblelogofinal.2ef66b6d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.09b85ec0.js",
-    "static/js/2.7e8e7cfb.chunk.js",
-    "static/css/main.2e9c9863.chunk.css",
-    "static/js/main.fc0933c5.chunk.js"
+    "static/js/2.2f6291e5.chunk.js",
+    "static/css/main.89646396.chunk.css",
+    "static/js/main.ff8e381d.chunk.js"
   ]
 }
