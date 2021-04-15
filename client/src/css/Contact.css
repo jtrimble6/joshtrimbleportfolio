@@ -94,3 +94,8 @@ input[type="submit"]:hover {
   margin: 0;
   font-size: 2rem;
 }
+
+.confirmationMessage {
+  width: 100vw;
+  text-align: center;
+}

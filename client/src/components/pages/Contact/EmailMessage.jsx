@@ -18,8 +18,12 @@ class EmailMsg extends Component {
         <h2 className="uk-text-center uk-position-center textDown">{message.message}</h2>
       </div> : sendingEmail === true ?
       <div> 
-          <h2 className="uk-text-center uk-position-center textDown" style={styles.msgStyle} > Your message has been sent. I will be in touch shortly. Thank you! </h2> 
-      </div> : <div> </div>
+          <h2 className="uk-text-center uk-position-center textDown confirmationMessage" style={styles.msgStyle} > Your message has been sent. I will be in touch shortly. Thank you! </h2> 
+      </div> 
+      : 
+      <div>
+        
+      </div>
     }
 
   render() {
