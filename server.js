@@ -14,6 +14,10 @@ app.use(cors());
 app.use(bodyParser.json()) // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true }))
 
+app.use('/joshtrimbleportfolio/', express.static(path.join(__dirname, "client/build")));
+
+app.use(contactRoutes)
+
 
 // Serve up static assets (usually on heroku)
 // if (process.env.NODE_ENV === "production") {
@@ -27,10 +31,6 @@ app.use(function(req, res, next) { //allow cross origin requests
 	res.header("Access-Control-Allow-Credentials", true);
 	next();
   });
-
-app.use('/joshtrimbleportfolio/', express.static(path.join(__dirname, "client/build")));
-
-app.use(contactRoutes)
 
 app.get("*", (req, res) => {
 //   res.sendFile(path.join(__dirname, "build", "index.html"));

@@ -90,6 +90,7 @@ class SendContactInfo extends Component {
                 subject: subject
             }
         }).then((response)=> {
+          console.log('RESPONSE: ', response)
             if (response.data.msg === 'success'){
                 console.log("Message Sent."); 
                 Alert.success('Your email has been sent!', 10000)
