@@ -598,7 +598,7 @@ fastparse@^1.1.2:
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
   integrity sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==
 
-fbjs@^0.8.1, fbjs@^0.8.6:
+fbjs@^0.8.1:
   version "0.8.17"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
   integrity sha1-xNWY6taUkRJlPWWIsBpc3Nn5D90=
@@ -1647,13 +1647,6 @@ react-social-icons@^3.0.0:
   dependencies:
     babel-runtime "^6.11.6"
     classnames "^2.2.5"
-
-react-tap-event-plugin@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/react-tap-event-plugin/-/react-tap-event-plugin-3.0.3.tgz#bc5fd0ee3fd3ab5224c1c2ff6f0750204ae89802"
-  integrity sha1-vF/Q7j/Tq1IkwcL/bwdQIEromAI=
-  dependencies:
-    fbjs "^0.8.6"
 
 react-transition-group@^1.2.1:
   version "1.2.1"

@@ -40,7 +40,6 @@
     "react-scripts": "^3.4.3",
     "react-scroll": "^1.8.2",
     "react-social-icons": "^3.0.0",
-    "react-tap-event-plugin": "^3.0.3",
     "reactstrap": "^8.6.0",
     "redux": "^4.0.1",
     "redux-burger-menu": "^0.2.8",
