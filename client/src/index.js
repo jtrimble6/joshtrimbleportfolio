@@ -3,21 +3,21 @@ import { render } from 'react-dom';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { applyMiddleware, compose, createStore } from 'redux';
-import createHistory from 'history/createHashHistory';
+// import createHistory from 'history/createHashHistory';
 import { routerMiddleware, ConnectedRouter } from 'react-router-redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import App from './App';
 import rootReducer from './components/reducers';
 import './index.css';
-const history = createHistory();
+// const history = createHistory();
 // injectTapEventPlugin();
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
     rootReducer,
     composeEnhancer(
       applyMiddleware(
-        routerMiddleware(history),
+        routerMiddleware(),
         thunk
       ),
     ),
@@ -26,7 +26,7 @@ const store = createStore(
   render(
     <MuiThemeProvider>
       <Provider store={store}>
-        <App history={history}/>
+        <App />
       </Provider>
     </MuiThemeProvider>,
     document.getElementById('root'));
