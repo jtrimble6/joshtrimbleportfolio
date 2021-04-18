@@ -15,19 +15,19 @@ const Bio = () => (
                 <div className='row strengthsRow'>
                     <div className='col strengthsCol'>
                         <h3 className='strengthsTitle'>Strengths:</h3>
-                        <i class="fab fa-js-square strengthIcon"></i>
-                        <i class="fab fa-react strengthIcon"></i>
-                        <i class="fab fa-html5 strengthIcon"></i>
-                        <i class="fab fa-css3-alt strengthIcon"></i>
-                        <i class="fab fa-node strengthIcon"></i>
+                        <i className="fab fa-js-square strengthIcon"></i>
+                        <i className="fab fa-react strengthIcon"></i>
+                        <i className="fab fa-html5 strengthIcon"></i>
+                        <i className="fab fa-css3-alt strengthIcon"></i>
+                        <i className="fab fa-node strengthIcon"></i>
                     </div>
                 </div>
                 <div className='row studyingRow'>
                     <div className='col studyingCol'>
                         <h3 className='studyingTitle'>Studying:</h3>
-                        <i class="fab fa-php studyingIcon"></i>
-                        <i class="fab fa-swift studyingIcon"></i>
-                        <i class="fab fa-angular studyingIcon"></i>
+                        <i className="fab fa-php studyingIcon"></i>
+                        <i className="fab fa-swift studyingIcon"></i>
+                        <i className="fab fa-angular studyingIcon"></i>
                     </div>
                 </div>
             </div>
@@ -39,15 +39,15 @@ const Bio = () => (
 
         
         <div className='row connectRow'>
-            <i class="fab fa-linkedin connectIcon" id="linkedInTooltip" href="https://linkedin.com/in/joshuataylortrimble" target="_blank"></i>
+            <i className="fab fa-linkedin connectIcon" id="linkedInTooltip" href="https://linkedin.com/in/joshuataylortrimble" target="_blank"></i>
             <UncontrolledTooltip placement="bottom" target="linkedInTooltip">
                 LinkedIn
             </UncontrolledTooltip>
-            <i class="fab fa-github connectIcon" id="githubTooltip" href="https://github.com/jtrimble6" target="_blank"></i>
+            <i className="fab fa-github connectIcon" id="githubTooltip" href="https://github.com/jtrimble6" target="_blank"></i>
             <UncontrolledTooltip placement="bottom" target="githubTooltip">
                 Github
             </UncontrolledTooltip>
-            <i class="fas fa-file-word connectIcon" id="resumeTooltip"></i>
+            <i className="fas fa-file-word connectIcon" id="resumeTooltip"></i>
             <UncontrolledTooltip placement="bottom" target="resumeTooltip">
                 Resume
             </UncontrolledTooltip>

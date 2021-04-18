@@ -11,6 +11,7 @@
 .bioContainer {
   /* position: inherit; */
   padding-top: 20vh;
+  padding-bottom: 5vh;
 }
 
 .img {
@@ -42,7 +43,7 @@
   position: relative;
   /* top: 10vh; */
   padding: 3vw;
-  margin-bottom: 5vh;
+  margin-bottom: 2vh;
   float: none;
   color: #333333;
   border: 0.5rem solid #eeeeee;
@@ -61,12 +62,14 @@
   position: relative;
   width: 30vw;
   left: 70vw;
+  
 }
 
 .connectIcon {
   font-size: 4rem;
   padding: 1rem;
   border-radius: 1rem;
+  color: #333333;
   /* margin: 1rem; */
 }
 

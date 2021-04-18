@@ -48,21 +48,10 @@ componentDidMount() {
 handleScroll = (location) => {
     // this.toggleNavbar()
     // e.preventDefault()
-    console.log('LOCATION: ', location)
+    // console.log('LOCATION: ', location)
     let section = document.getElementById(location)
-    console.log('got element: ', section)
+    // console.log('got element: ', section)
     section.scrollIntoView({behavior: "smooth"}); // Boolean parameter
-    // let scroll = Scroll.animateScroll;
-    // scroll.scrollTo(400);
-    // const { prevScrollPos } = this.state;
-  
-    // const currentScrollPos = window.pageYOffset;
-    // const visible = prevScrollPos > currentScrollPos;
-  
-    // this.setState({
-    //   prevScrollPos: currentScrollPos,
-    //   visible
-    // });
     }
 
 

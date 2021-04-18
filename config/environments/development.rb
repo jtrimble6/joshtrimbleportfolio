@@ -1,5 +1,7 @@
-config.action_mailer.default_url_options = { :host => ‘localhost:3001’ }
-Rails.application.routes.default_url_options[:host] = ‘localhost:3001’
+# config.action_mailer.default_url_options = { :host => ‘localhost:3000’ }
+# Rails.application.routes.default_url_options[:host] = ‘localhost:3000’
+config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
+config.action_mailer.default_url_options = {:host => "localhost", :port => '3000', :protocol => "http"}
 config.action_mailer.raise_delivery_errors = true
 config.action_mailer.perform_deliveries = true
 config.action_mailer.delivery_method = :smtp

@@ -37,11 +37,11 @@ class EmailMsg extends Component {
 }
 
 function mapStateToProps(state) {
- console.log(state.contact)
+ console.log(state.contacts)
    return {
-     message: state.contact.message,
-     sendingEmail: state.contact.makeReq,
-     response: state.contact.recvdResp
+     message: state.contacts.message,
+     sendingEmail: state.contacts.makeReq,
+     response: state.contacts.recvdResp
    }
 }
 

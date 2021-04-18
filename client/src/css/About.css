@@ -19,7 +19,7 @@
 .aboutField {
   width: 90vw;
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 25vh;
   margin-bottom: 10%;
   opacity: 1;
   background-color: transparent;
@@ -36,6 +36,7 @@
   text-align: center;
   font-size: 6rem;
   font-family: lemonada-semibold;
+  margin-bottom: 2vh;
 }
 
 h2 {
@@ -204,14 +205,17 @@ h2 {
   .aboutTitle {
     margin-top: 4vh;
     font-size: 3.5rem;
+    margin-bottom: 1vh;
   }
   .aboutField {
     width: 100vw !important;
     margin-left: 1vw;
     margin-right: 1vw;
+    margin-top: 15vh;
   }
   .aboutField p {
     font-size: 1rem;
+    margin-bottom: 1vh;
   }
 }
 

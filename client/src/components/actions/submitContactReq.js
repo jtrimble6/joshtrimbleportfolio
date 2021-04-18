@@ -20,30 +20,30 @@ export const sentEmail = data => {
  data
  };
 };
-export const errorEmail = () => {
+export const errorEmail = (err) => {
  return {
- type: "ERROR_EMAIL"
+ type: "ERROR_EMAIL",
+ err
  };
 };
 export function submitContactReqToServer(url, data) {
- console.log(JSON.stringify({ data }))
+ console.log('data: ', data)
+ console.log('SUBMITTING DATA: ', JSON.stringify({ data }))
  return dispatch => {
  dispatch(makeAPIRequestToSendEmail());
  dispatch(clearEmailDetails());
+ console.log('API URL: ', API_URL)
+ console.log('url: ', url)
  return fetch(API_URL + url, {
  method: "POST",
- headers: {
- "Accept": "application/json",
- "Content-Type": "application/json"
- },
- body: JSON.stringify({ data })
+ body: data 
  })
  .then(response => response.json())
  .then(emailMessage => {
  dispatch(receivedResponse());
- console.log(emailMessage)
+ console.log('email message: ', emailMessage)
  dispatch(sentEmail(emailMessage));
  })
- .catch(err => dispatch(errorEmail()));
+ .catch(err => dispatch(errorEmail(err)));
  }
 }

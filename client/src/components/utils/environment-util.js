@@ -5,19 +5,19 @@ export const getEnvironment = () => process.env.NODE_ENV
   export const getApiUrl = () => {
     switch (getEnvironment()) {
       case 'production':
-        return 'https://www.googleapis.com/gmail/v1/users/jaytrim6@gmail.com/messages/id';
+        return 'https://www.googleapis.com/gmail/v1/users/noreply.thursdaytherapy@gmail.com/messages/id';
       case 'development':
       default:
-        return 'http://localhost';
+        return 'http://localhost:' + process.env.PORT;
     }
   };
 
   export const getAppUrl = () => {
   switch (getEnvironment()) {
     case 'production':
-      return 'https://joshuatrimble.com';
+      return 'https://trimbledevelops.com';
     case 'development':
     default:
-      return 'http://localhost';
+      return 'http://localhost:' + process.env.PORT;
   }
 };

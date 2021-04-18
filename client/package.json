@@ -46,7 +46,8 @@
     "redux-burger-menu": "^0.2.8",
     "redux-form": "^7.4.2",
     "redux-promise": "^0.6.0",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "rsuite": "^4.9.3"
   },
   "scripts": {
     "start": "react-scripts start",
