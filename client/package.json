@@ -42,7 +42,7 @@
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.3.0",
     "rsuite": "^4.9.3",
-    "webpack": "^5.33.2"
+    "webpack": "4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
