@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
-  "repository": "git@github.com:jtrimble6/joshtrimbleportfolio.git",
+  "repository": "https://git.heroku.com/trimbledevelops.git",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.6",
