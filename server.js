@@ -14,6 +14,10 @@ app.use(cors());
 app.use(bodyParser.json()) // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true }))
 
+if (process.env.NODE_ENV === "PRODUCTION") {
+	app.use(express.static(path.join(__dirname, "client", "build")));
+  } 
+
 app.use('/joshtrimbleportfolio/', express.static(path.join(__dirname, "client/build")));
 
 app.use(contactRoutes)

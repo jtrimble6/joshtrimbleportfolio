@@ -1,9 +1,10 @@
 {
   "name": "joshtrimbleportfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "main": "index.js",
-  "repository": "git@github.com:jtrimble6/joshtrimbleportfolio.git",
+  "repository": "https://git.heroku.com/trimbledevelops.git",
+  "author": "JOSHUA TRIMBLE <TRIMBLEDEVELOPS@GMAIL.COM>",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.6",
