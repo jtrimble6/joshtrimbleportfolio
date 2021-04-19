@@ -43,7 +43,7 @@
     "redux-thunk": "^2.3.0",
     "rsuite": "^4.9.3",
     "typescript": "^3.2.1",
-    "webpack": "4.0.0"
+    "webpack": "^4.42.0"
   },
   "scripts": {
     "start": "react-scripts start",
