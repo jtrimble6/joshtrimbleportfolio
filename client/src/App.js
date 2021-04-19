@@ -12,7 +12,12 @@ class App extends Component {
       return(
         <Router>
           <div>
-            <Route path={process.env.PUBLIC_URL + '/'} render={() => <LandingPage />}  />
+            {/* <Route path={'/'} render={() => <LandingPage />}  /> */}
+            <Route exact path='/'
+              render={() =>
+                <LandingPage />
+              }
+            />
           </div>
         </Router>
       )
