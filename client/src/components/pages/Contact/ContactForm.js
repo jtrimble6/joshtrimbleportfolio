@@ -82,7 +82,7 @@ class SendContactInfo extends Component {
         // console.log(name, email, message)
         axios({
             method: "POST", 
-            url: process.env.NODE_ENV === 'development' ? "http://localhost:3000/send" : "http://trimbledevelops.com/send",
+            url: process.env.NODE_ENV === 'development' ? "http://localhost:3000/send" : "http://www.trimbledevelops.com/send",
             data: {
                 name: name,   
                 email: email,  
