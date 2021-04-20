@@ -111,7 +111,13 @@ class SendContactInfo extends Component {
     }
 
   resetForm(){
-        document.getElementById('contactForm').reset();
+        // document.getElementById('contactForm').reset();
+        this.setState({
+          name: "",
+          email: "",
+          subject: "",
+          message: ""
+        })
       }
   
 
