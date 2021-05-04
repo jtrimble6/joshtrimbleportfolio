@@ -5,7 +5,7 @@ import GFitVideo from "../../css/videos/GouveiaFitness.mp4";
 // import GFitMobileVideo from "../../css/videos/GouveiaFitnessMobile.mp4";
 import ThursdayTherapyVideo from "../../css/videos/ThursdayTherapy.mp4";
 // import SecretSupperClubVideo from "../../css/videos/SecretSupperClub.mp4";
-import SportHabitsVideo from "../../css/videos/SportHabitsVideo.mp4";
+import SportHabitsVideo from "../../css/videos/SportHabits.mp4";
 import MagnessConsultingVideo from "../../css/videos/MagnessConsulting.mp4";
 
 const Projects = () => (
