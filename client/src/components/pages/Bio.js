@@ -39,15 +39,21 @@ const Bio = () => (
 
         
         <div className='row connectRow'>
-            <i className="fab fa-linkedin connectIcon" id="linkedInTooltip" href="https://linkedin.com/in/joshuataylortrimble" target="_blank"></i>
+            <a id="linkedInTooltip" href="https://linkedin.com/in/joshuataylortrimble" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-linkedin connectIcon"></i>
+            </a>
             <UncontrolledTooltip placement="bottom" target="linkedInTooltip">
                 LinkedIn
             </UncontrolledTooltip>
-            <i className="fab fa-github connectIcon" id="githubTooltip" href="https://github.com/jtrimble6" target="_blank"></i>
+            <a id="githubTooltip" href="https://github.com/jtrimble6" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-github connectIcon"></i>
+            </a>
             <UncontrolledTooltip placement="bottom" target="githubTooltip">
                 Github
             </UncontrolledTooltip>
-            <i className="fas fa-file-word connectIcon" id="resumeTooltip"></i>
+            <a id="resumeTooltip">
+                <i className="fas fa-file-word connectIcon"></i>
+            </a>
             <UncontrolledTooltip placement="bottom" target="resumeTooltip">
                 Resume
             </UncontrolledTooltip>
